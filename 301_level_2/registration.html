@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <br><br>
+    <h3 style="font-size: large;">For going to project click on the below link :</h3><br>
+<a href="/project">Projects</a><br><br>
+<!-- <a href="project.html">Projects</a> -->
+    <h1>Registration Form</h1>
+    <div id="form" class="form">
+      <table cellspacing="10" cellpadding="5">
+        <form>
+          <tr align="left">
+            <th>Reg no</th>
+            <td>
+              <input type="text" name="regno" value="" />
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Name</th>
+            <td>
+              <input type="text" name="name" value="" />
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Father Name</th>
+            <td>
+              <input type="text" name="father name" value="" />
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Gender</th>
+            <td>
+              <label for="Gender">Gender</label>
+              <input type="radio" id="Male" name="m" />Male
+              <input type="radio" id="Female" name="f" />Female
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Date of birth</th>
+            <td>
+              <input type="date" name="date of birth" value="DD/MM/YYYY" />
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Languages known</th>
+            <td>
+              <p>
+                <input type="checkbox" name="language" value="c" />C
+                <input type="checkbox" name="language" value="C++" />C++
+                <input type="checkbox" name="langauge" value="python" />python
+              </p>
+              <p>
+                <input type="checkbox" name="language" value="java" />java
+                <input type="checkbox" name="language" value="R" />R
+                <input type="checkbox" name="language" value="julia" />julia
+              </p>
+              <p>
+                <input type="checkbox" name="language" value="java" />HTML
+                <input type="checkbox" name="language" value="R" />css
+                <input
+                  type="checkbox"
+                  name="language"
+                  value="julia"
+                />JavaScript
+              </p>
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Branch</th>
+            <td>
+              <select>
+                <option value="-1">Select a branch</option>
+                <option value="AI&DS">AI&DS</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">ECE</option>
+                <option value="AI&ML">AI&ML</option>
+                <option value="CE">CE</option>
+              </select>
+            </td>
+          </tr>
+          <tr align="left">
+            <th>Address</th>
+            <td>
+              <textarea rows="10" cols="20"></textarea>
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2">
+              <button type="button">
+                <a class="btn">Submit</a>
+              </button>
+            </td>
+          </tr>
+        </form>
+
+      </table>
+    </div>
+
+  </body>
+</html>
